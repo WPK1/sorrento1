@@ -1,0 +1,23 @@
+.Header {
+    background-color:#FFF8DC;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.logo {
+    width: 800px;
+}
+.navigation {
+    justify-self: end;
+    align-self: end;
+    display: flex;
+}
+.navigation a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+}
+.navigation a:hover {
+    color: coral;
+    background-color: darkblue;
+}
