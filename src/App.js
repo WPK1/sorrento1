@@ -1,24 +1,25 @@
-import logo from './logo.svg';
+import Logo from './beachlogo.png'
 import './App.css';
 
+import {Header} from './Components/Header'
+const NavItems = [
+  {"name" : "Home" , "link" : "/home" },
+  {"name" : "The Appartment" , "link" : "/appartment" },
+  {"name" : "FAQ" , "link" : "/faq" },
+  {"name" : "Book" , "link" : "/book" },
+  {"name" : "Local Area" , "link" : "/local" },
+  {"name" : "Contact" , "link" : "/contact" }
+]
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="website">
+      <Header logo={Logo} nav={NavItems}/>
+      <main className="content"></main>
+      <footer className="footer"></footer>
+  
     </div>
+
+
   );
 }
 
