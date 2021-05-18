@@ -18,6 +18,6 @@
     color: black;
 }
 .navigation a:hover {
-    color: coral;
-    background-color: darkblue;
+    color: rgb(241, 105, 56);
+    background-color: rgb(243, 232, 167);
 }
