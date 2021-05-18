@@ -21,3 +21,6 @@
     color: rgb(241, 105, 56);
     background-color: rgb(243, 232, 167);
 }
+.navigation a.active{
+    font-weight: bold;
+}
