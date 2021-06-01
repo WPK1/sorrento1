@@ -6,7 +6,7 @@ export function Apartment(props) {
     return (
         <div className="Apartment">
             <Banner image={BannerImage} text="Sorrento Beach" />
-            <h2>Apartment</h2>
+            <h2>Apartment and information</h2>
             <div className="content">
                 <p>We offer a spacious living area overlooking a beautiful garden
                     Modern and elegant bathroom</p>
@@ -32,12 +32,21 @@ export function Apartment(props) {
                     Amenities include top quality bedding, fluffy towels, bath robes, vanity packs, hair dryer, beach towels and chairs, a picnic basket, coffee machine and pods, a microwave/convection oven, a toaster, a kettle, a sandwich maker and BBQ tools.
                     We offer locally sourced provisions for a hearty breakfast together with home-made biscuits and chocolates.
                     </p>
+
+                <h3>
+                    Pet friendly
+                    </h3>
+                <p>We understand that pets are an important part of the family.</p>
+                <p>We are pet friendly by arrangement - so please talk to us about your needs.</p>
+                <p>We offer a fully enclosed backyard, shady trees, water bowls, food bowls and a lead if you forget one</p>
+                <p>Only 3 minutes from a leash free beach, an oval close by and if you want to sleep in we are happy to take your dog (depending on its size) for a walk in the morning.  </p>
+
             </div>
         </div>
 
 
 
     )
-}
+}       
 
 export default Apartment

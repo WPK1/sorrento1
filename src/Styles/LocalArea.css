@@ -1,0 +1,9 @@
+.LocalArea {
+    max-width: 1024px;
+    margin: 1em auto;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
