@@ -1,12 +1,12 @@
 import '../Styles/Apartment.css'
 import { Banner } from './Banner'
 import BannerImage from '../BannerImage/banner.jpg'
-
+import '../Styles/text.css'
 export function Apartment(props) {
     return (
         <div className="Apartment">
             <Banner image={BannerImage} text="Sorrento Beach" />
-            <h2>Apartment and information</h2>
+            <h2 className="main">Apartment and information</h2>
             <div className="content">
                 <p>We offer a spacious living area overlooking a beautiful garden
                     Modern and elegant bathroom</p>

@@ -10,6 +10,7 @@ import {LocalArea} from './Components/LocalArea'
 import {NotFound} from './Components/NotFound'
 import {Header} from './Components/Header'
 
+
 const NavItems = [
   {"name" : "Home" , "link" : "/" },
   {"name" : "The Apartment" , "link" : "/apartment" },
@@ -51,7 +52,12 @@ function App() {
 
         </Switch>
       </main>
-      <footer className="footer"></footer>
+      <footer className="footer"><p class="copyright">&copy;SORRENTO 2021</p>
+           <nav class="social-nav">
+               <a href="https://facebook.com/sorrento"><i class="fab fa-facebook-square"></i></a>
+               <a href="https://instagram.com/sorrento"><i class="fab fa-instagram-square"></i></a>
+               <a href="https://twitter.com/sorrento"><i class="fab fa-twitter-square"></i></a>
+           </nav></footer>
   
     </div>
 

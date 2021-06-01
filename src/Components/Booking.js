@@ -1,11 +1,12 @@
 import { Banner } from '../Components/Banner'
 import BannerImage from '../BannerImage/beach-unsplash.jpg'
 import '../Styles/Booking.css'
+import '../Styles/text.css'
 export function Booking(props) {
     return (
         <div className="Booking">
             <Banner image={BannerImage} text="Beach" />
-            <h2>Booking</h2>
+            <h2 className="main">Booking</h2>
             <div className="grid">
                 <div className="card">
                     <h3>Winter</h3>

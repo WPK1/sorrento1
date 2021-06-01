@@ -1,30 +1,35 @@
 import '../Styles/FAQ.css'
+import '../Styles/text.css'
 export function FAQ(props) {
     return (
         <div className="FAQ_grid">
             <div className="FAQ"> <h2>Frequently Asked Questions</h2>
             <div>
-                <h3>Is Sorrento By the Sea pet friendly?</h3>
+                <h3 className="main">Is Sorrento By the Sea pet friendly?</h3>
                 <p>Yes, we are pet friendly with all the ammenities a pet would love. Only a 3 minute walk to a non-leash beach!</p>
             </div>
             <div>
-                <h3>What is your refund policy?</h3>
+                <h3 className="main">What is your refund policy?</h3>
                 <p>A full refund will be given prior to 30 days cancellation 50% refund will be given after 30 days of cancellation. In the event of a weekly or monthly booking the apartment will be serviced weekly unless by prior arrangement.</p>
             </div>
             <div>
-                <h3>Is there room to park my boat?</h3>
+                <h3 className="main">Is there room to park my boat?</h3>
                 <p>Car parking is close by with room for a boat as well!</p>
             </div>
             <div>
-                <h3>How much will it cost?</h3>
+                <h3 className="main">How much will it cost?</h3>
                 <li>Winter prices are: $200 per night</li>
                 <li>Summer prices are:$220 per night Weekly Price $1,250 Monthly Price $5,400</li>
             </div>
             <div>
-                <h3>Can i smoke inside?</h3>
+                <h3 className="main">Can i smoke inside?</h3>
                 <p>The appartment is non-smoking, you may smoke outside if you must</p>
             </div>
-                <h2>Testimonials</h2>
+            <div>
+                <h3 className="main">Do you accept PayPal?</h3>
+                <p>Yes we accept all mojor credit cards and PayPal</p>
+            </div>
+                <h2 className="main">Testimonials</h2>
                 <div>
                     <p>"So sorry we had to go home after only one night. We will definitely stay two nights next time!"</p>
                 </div>

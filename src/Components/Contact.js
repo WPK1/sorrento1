@@ -1,8 +1,9 @@
 import '../Styles/Contact.css'
+import '../Styles/text.css'
 export function Contact(props) {
     return (
         <div className="contact">
-            <h2>Contact Our Team</h2>
+            <h2 className="main">Contact Our Team</h2>
             <form id="contact-form"
                 action="https://example.com/handler"
                 method="post"

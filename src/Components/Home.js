@@ -1,4 +1,5 @@
 import '../Styles/Home.css'
+import '../Styles/text.css'
 
 export function Home(props) {
     return (
