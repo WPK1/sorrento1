@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/sorrento1/static/css/main.5742bcbd.chunk.css",
-    "main.js": "/sorrento1/static/js/main.3fa34325.chunk.js",
-    "main.js.map": "/sorrento1/static/js/main.3fa34325.chunk.js.map",
-    "runtime-main.js": "/sorrento1/static/js/runtime-main.3b2618c2.js",
-    "runtime-main.js.map": "/sorrento1/static/js/runtime-main.3b2618c2.js.map",
-    "static/js/2.65ab3e09.chunk.js": "/sorrento1/static/js/2.65ab3e09.chunk.js",
-    "static/js/2.65ab3e09.chunk.js.map": "/sorrento1/static/js/2.65ab3e09.chunk.js.map",
-    "static/js/3.9e6ed69a.chunk.js": "/sorrento1/static/js/3.9e6ed69a.chunk.js",
-    "static/js/3.9e6ed69a.chunk.js.map": "/sorrento1/static/js/3.9e6ed69a.chunk.js.map",
+    "main.css": "/sorrento1/static/css/main.bd888907.chunk.css",
+    "main.js": "/sorrento1/static/js/main.161baa9c.chunk.js",
+    "main.js.map": "/sorrento1/static/js/main.161baa9c.chunk.js.map",
+    "runtime-main.js": "/sorrento1/static/js/runtime-main.60f35218.js",
+    "runtime-main.js.map": "/sorrento1/static/js/runtime-main.60f35218.js.map",
+    "static/js/2.a8a4de52.chunk.js": "/sorrento1/static/js/2.a8a4de52.chunk.js",
+    "static/js/2.a8a4de52.chunk.js.map": "/sorrento1/static/js/2.a8a4de52.chunk.js.map",
+    "static/js/3.8e41cc69.chunk.js": "/sorrento1/static/js/3.8e41cc69.chunk.js",
+    "static/js/3.8e41cc69.chunk.js.map": "/sorrento1/static/js/3.8e41cc69.chunk.js.map",
     "index.html": "/sorrento1/index.html",
-    "static/css/main.5742bcbd.chunk.css.map": "/sorrento1/static/css/main.5742bcbd.chunk.css.map",
-    "static/js/2.65ab3e09.chunk.js.LICENSE.txt": "/sorrento1/static/js/2.65ab3e09.chunk.js.LICENSE.txt",
+    "static/css/main.bd888907.chunk.css.map": "/sorrento1/static/css/main.bd888907.chunk.css.map",
+    "static/js/2.a8a4de52.chunk.js.LICENSE.txt": "/sorrento1/static/js/2.a8a4de52.chunk.js.LICENSE.txt",
     "static/media/banner.72b8796a.jpg": "/sorrento1/static/media/banner.72b8796a.jpg",
     "static/media/beach-unsplash.cc02be24.jpg": "/sorrento1/static/media/beach-unsplash.cc02be24.jpg",
+    "static/media/beach3unsplash.7ebbff98.jpg": "/sorrento1/static/media/beach3unsplash.7ebbff98.jpg",
     "static/media/sorrento_by_the_sea_logo.da3aa440.jpg": "/sorrento1/static/media/sorrento_by_the_sea_logo.da3aa440.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3b2618c2.js",
-    "static/js/2.65ab3e09.chunk.js",
-    "static/css/main.5742bcbd.chunk.css",
-    "static/js/main.3fa34325.chunk.js"
+    "static/js/runtime-main.60f35218.js",
+    "static/js/2.a8a4de52.chunk.js",
+    "static/css/main.bd888907.chunk.css",
+    "static/js/main.161baa9c.chunk.js"
   ]
 }
