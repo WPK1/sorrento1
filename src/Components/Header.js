@@ -12,7 +12,9 @@ export function Header ( props ) {
     } )
     return (
         <header className="Header">
+        <Link to ="/">
         <img className="logo" src={props.logo} />
+        </Link>
         <nav className="navigation">
             {Navigation}
         </nav>
